@@ -1,0 +1,321 @@
+{
+  "info": {
+    "_postman_id": "f4df713b-100a-4a92-91fd-19d5cf1b0e68",
+    "name": "getsparely",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "14577717",
+    "_collection_link": "https://go.postman.co/collection/14577717-f4df713b-100a-4a92-91fd-19d5cf1b0e68?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "My items",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://auth.getsparely.com/api/get-item",
+          "protocol": "https",
+          "host": [
+            "auth",
+            "getsparely",
+            "com"
+          ],
+          "path": [
+            "api",
+            "get-item"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get payment settings",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/get-payment-settings",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "get-payment-settings"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "payment-transactions",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/payment-transactions",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "payment-transactions"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "payment intent",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "pub_id",
+              "value": "2",
+              "type": "text",
+              "uuid": "a4a5cae0-904a-461f-84d2-9c3e5778eeeb"
+            },
+            {
+              "key": "payment_method",
+              "value": "Stripe",
+              "type": "text",
+              "uuid": "cae1de42-119a-4d15-a5bc-e7ed5cfce8e6"
+            },
+            {
+              "key": "platform_type",
+              "value": "android",
+              "type": "text",
+              "uuid": "0f716d63-d49a-411d-bff9-f4bf89da4bf7"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseUrl}}/payment-intent",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "payment-intent"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "check payment status",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "pub_id",
+              "value": "1",
+              "type": "text",
+              "uuid": "a4a5cae0-904a-461f-84d2-9c3e5778eeeb"
+            },
+            {
+              "key": "payment_method",
+              "value": "bankTransfer",
+              "type": "text",
+              "uuid": "cae1de42-119a-4d15-a5bc-e7ed5cfce8e6"
+            },
+            {
+              "key": "platform_type",
+              "value": "android",
+              "type": "text",
+              "uuid": "0f716d63-d49a-411d-bff9-f4bf89da4bf7"
+            }
+          ]
+        },
+        "url": {
+          "raw": "{{baseUrl}}/check-payment-status?pub_id=1",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "check-payment-status"
+          ],
+          "query": [
+            {
+              "key": "pub_id",
+              "value": "1",
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Add items",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrl}}/add-item",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "add-item"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "categories",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/get-categories",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "get-categories"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get system settings",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://auth.getsparely.com/api/get-system-settings",
+          "protocol": "https",
+          "host": [
+            "auth",
+            "getsparely",
+            "com"
+          ],
+          "path": [
+            "api",
+            "get-system-settings"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "login firebase",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"returnSecureToken\": true,\r\n    \"email\": \"uwx33465@laoia.com\",\r\n    \"password\": \"fouad123456\",\r\n    \"clientType\": \"CLIENT_TYPE_WEB\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDTvlVPvUXx10joTeNMjBnNGp9dCMuCF5E",
+          "protocol": "https",
+          "host": [
+            "identitytoolkit",
+            "googleapis",
+            "com"
+          ],
+          "path": [
+            "v1",
+            "accounts:signInWithPassword"
+          ],
+          "query": [
+            {
+              "key": "key",
+              "value": "AIzaSyDTvlVPvUXx10joTeNMjBnNGp9dCMuCF5E"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "3|OTfXzC3bek8hIPyqv4q6ZPfXojkfIdsze7xE1BtPab4abaab",
+        "type": "string"
+      }
+    ]
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": ""
+    }
+  ]
+}
