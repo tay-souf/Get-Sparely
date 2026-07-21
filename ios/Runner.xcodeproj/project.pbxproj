@@ -504,7 +504,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.9.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.getsparely.pline;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khetelehteraf.sparely;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -743,7 +743,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.9.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.getsparely.pline;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khetelehteraf.sparely;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -870,7 +870,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.9.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.getsparely.pline;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khetelehteraf.sparely;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
