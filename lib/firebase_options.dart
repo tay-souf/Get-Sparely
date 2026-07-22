@@ -58,15 +58,12 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: '',
-    appId: '1:604118652117:android:756f5aeae4755ce6457e5c',
-    messagingSenderId: '604118652117',
-    projectId: 'getsparely',
-    storageBucket: 'getsparely.firebasestorage.app',
-    androidClientId:
-        '604118652117-kea8t4jfdpuuv2qfv4bp9nsv8ohu33bc.apps.googleusercontent.com',
-    iosClientId:
-        '604118652117-kea8t4jfdpuuv2qfv4bp9nsv8ohu33bc.apps.googleusercontent.com',
-    iosBundleId: 'com.getsparely.pline',
+    apiKey: 'AIzaSyCKklFvGhw2StzSA-0o84hHpjsl-6NnF80',
+    appId: '1:657175107706:ios:3daac0de76d2e7b24c43c3',
+    messagingSenderId: '657175107706',
+    projectId: 'getsparely-app',
+    storageBucket: 'getsparely-app.firebasestorage.app',
+    iosClientId: '657175107706-2loeqh6km58rktn50ea6go6p7o9ui4tv.apps.googleusercontent.com',
+    iosBundleId: 'com.khetelehteraf.sparely',
   );
 }
