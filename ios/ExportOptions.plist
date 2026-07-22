@@ -10,7 +10,7 @@
 	<dict>
 		<!-- قُم باستبدال القيمة التالية باسم ملف التكوين Provisioning Profile Name الخاص بك تماماً كما هو في حساب آبل -->
 		<key>com.khetelehteraf.sparely</key>
-		<string>Get sparely</string>
+		<string>7d9fe780-8c68-4867-84b8-9b63661e9f4f</string>
 	</dict>
 	<key>stripSwiftSymbols</key>
 	<true/>
