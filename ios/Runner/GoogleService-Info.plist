@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>657175107706-2loeqh6km58rktn50ea6go6p7o9ui4tv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.657175107706-2loeqh6km58rktn50ea6go6p7o9ui4tv</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCKklFvGhw2StzSA-0o84hHpjsl-6NnF80</string>
+	<key>GCM_SENDER_ID</key>
+	<string>657175107706</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.khetelehteraf.sparely</string>
+	<key>PROJECT_ID</key>
+	<string>getsparely-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>getsparely-app.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:657175107706:ios:3daac0de76d2e7b24c43c3</string>
+</dict>
+</plist>
