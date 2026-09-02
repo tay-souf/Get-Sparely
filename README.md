@@ -1,4 +1,4 @@
-# eClassify
+# Get-Sparely
 
 ### 🧰 System Requirements
 
